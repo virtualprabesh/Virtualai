@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6f2;
+    color: #333;
+  }
+  
+  .bg-light-brown {
+    background-color: #f4e8d1;
+  }
+  
+  .text-brown-800 {
+    color: #5a3e36;
+  }
+  
+  .bg-brown-500 {
+    background-color: #8b5e3c;
+  }
+  
+  .hover\:bg-brown-600:hover {
+    background-color: #744a30;
+  }
+  
+  .disabled\:bg-brown-300:disabled {
+    background-color: #c8a67e;
+  }
+  
+  .prose {
+    max-width: none;
+  }
+  
+  .prose-lg {
+    font-size: 1.25em;
+  }
+  
+  @media (max-width: 768px) {
+    .w-full {
+      width: 100%;
+    }
+  
+    .max-w-3xl {
+      max-width: 100%;
+    }
+  
+    .p-3 {
+      padding: 1rem;
+    }
+  }
+  
